@@ -10,12 +10,12 @@ func reshapeDeptInfo(
 	orders []uint32,
 	leaderStatuses []int,
 ) []UserDeptInfo {
-	if len(ids) != len(orders) {
-		panic("should never happen")
-	}
-	if len(ids) != len(leaderStatuses) {
-		panic("should never happen")
-	}
+	//if len(ids) != len(orders) {
+	//	panic("should never happen")
+	//}
+	//if len(ids) != len(leaderStatuses) {
+	//	panic("should never happen")
+	//}
 
 	result := make([]UserDeptInfo, len(ids))
 	for i := range ids {
